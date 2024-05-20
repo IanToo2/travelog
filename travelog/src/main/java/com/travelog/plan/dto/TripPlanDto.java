@@ -2,6 +2,8 @@ package com.travelog.plan.dto;
 
 import lombok.Builder;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.RequiredArgsConstructor;
 
 import java.sql.Timestamp;
 
@@ -15,6 +17,6 @@ public class TripPlanDto {
     private String intro;
     private boolean isShared;
     private int likes;
+    private int memberId;
 
-    private Long memberId;
 }
