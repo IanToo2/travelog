@@ -5,8 +5,11 @@ import lombok.Data;
 @Data
 public class ResponseReviewDto {
     private int review_id;
-    private String nickname;
-    private String review_text;
     private int content_id;
+    private String title;
+    private String review_text;
     private int likes;
+    private String update_time;
+    private String userid;
+    private String nickname;
 }
